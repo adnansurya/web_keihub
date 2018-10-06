@@ -1,123 +1,38 @@
-[debug] [2018-10-03T13:51:42.911Z] ----------------------------------------------------------------------
-[debug] [2018-10-03T13:51:42.914Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-03T13:51:42.914Z] CLI Version:   4.2.1
-[debug] [2018-10-03T13:51:42.914Z] Platform:      win32
-[debug] [2018-10-03T13:51:42.914Z] Node Version:  v8.11.4
-[debug] [2018-10-03T13:51:42.914Z] Time:          Wed Oct 03 2018 21:51:42 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-03T13:51:42.914Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T09:04:46.172Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T09:04:46.189Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-06T09:04:46.192Z] CLI Version:   5.0.1
+[debug] [2018-10-06T09:04:46.192Z] Platform:      win32
+[debug] [2018-10-06T09:04:46.192Z] Node Version:  v8.11.4
+[debug] [2018-10-06T09:04:46.194Z] Time:          Sat Oct 06 2018 17:04:46 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-10-06T09:04:46.194Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-10-03T13:51:42.925Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-03T13:51:42.926Z] > authorizing via signed-in user
-[debug] [2018-10-03T13:51:42.928Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/keihubweb  
- 
-[debug] [2018-10-03T13:51:44.259Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-03T13:51:44.261Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
- 
-[debug] [2018-10-03T13:51:46.552Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'D:\STELK MKS\ITC\KEI_P\web_keihub'...
-[info] 
-[info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-03T13:51:48.180Z] Fetching environment
-[debug] [2018-10-03T13:51:48.186Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
- 
-[debug] [2018-10-03T13:51:48.187Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
- 
-[debug] [2018-10-03T13:51:48.576Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-03T13:51:48.577Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-03T13:51:48.674Z] <<< HTTP RESPONSE 200
-[info] i  hosting[keihubweb]: Serving hosting files from: public
-[info] +  hosting[keihubweb]: Local server: http://localhost:5000
-[debug] [2018-10-03T13:51:51.409Z] Parsing function triggers
-[info] [hosting] Rewriting /anu to local function apps
-[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
-[info] [hosting] Rewriting /nomor/67 to local function apps
-[info] [hosting] Rewriting /nomor/67 to local function apps
-[debug] [2018-10-06T07:44:42.488Z] ----------------------------------------------------------------------
-[debug] [2018-10-06T07:44:42.510Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-06T07:44:42.511Z] CLI Version:   4.2.1
-[debug] [2018-10-06T07:44:42.511Z] Platform:      win32
-[debug] [2018-10-06T07:44:42.511Z] Node Version:  v8.11.4
-[debug] [2018-10-06T07:44:42.518Z] Time:          Sat Oct 06 2018 15:44:42 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-06T07:44:42.518Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-10-06T07:44:42.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-06T07:44:42.719Z] > authorizing via signed-in user
-[debug] [2018-10-06T07:44:42.728Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-10-06T07:44:42.728Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-10-06T09:04:46.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T09:04:46.280Z] > authorizing via signed-in user
+[debug] [2018-10-06T09:04:46.281Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T09:04:46.292Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
 
-[debug] [2018-10-06T07:44:43.132Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T07:44:43.208Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/keihubweb  
+[debug] [2018-10-06T09:04:47.823Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T09:04:47.829Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
  
-[debug] [2018-10-06T07:44:44.417Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T07:44:44.421Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
- 
-[debug] [2018-10-06T07:44:46.460Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T09:04:49.171Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'D:\STELK MKS\ITC\KEI_P\web_keihub'...
+[info] === Serving from 'C:\Users\Muhammad Akbar\Documents\Directory Git\web_keihub'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-06T07:44:59.078Z] Fetching environment
-[debug] [2018-10-06T07:44:59.095Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
+[debug] [2018-10-06T09:05:00.976Z] Fetching environment
+[debug] [2018-10-06T09:05:00.985Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
  
-[debug] [2018-10-06T07:44:59.096Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
+[debug] [2018-10-06T09:05:00.987Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
  
-[debug] [2018-10-06T07:44:59.634Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T07:44:59.635Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-06T07:44:59.804Z] <<< HTTP RESPONSE 200
-[info] i  hosting[keihubweb]: Serving hosting files from: public
-[info] +  hosting[keihubweb]: Local server: http://localhost:5000
-[debug] [2018-10-06T07:45:07.342Z] Parsing function triggers
-[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
+[debug] [2018-10-06T09:05:01.494Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T09:05:01.495Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-06T09:05:01.567Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-10-06T09:05:07.393Z] Parsing function triggers
 [info] [hosting] Rewriting / to local function apps
-[info] [hosting] Rewriting /favicon.ico to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /images/dummy%20logo.png to local function apps
-[info] [hosting] Rewriting /images/dummy%20logo%20light.png to local function apps
+[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
 [info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
+[info] [hosting] Rewriting / to local function apps
 [info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /temp to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /css/demo.css.map to local function apps
+[info] [hosting] Rewriting / to local function apps
