@@ -18,4 +18,8 @@ app.get('/temp', function(request, response)  {
   response.render('template')
 });
 
+app.get('/author', function(request, response)  {
+  response.render('author')
+});
+
 exports.apps = functions.https.onRequest(app);
