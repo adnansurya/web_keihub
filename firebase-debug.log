@@ -1,103 +1,72 @@
-[debug] [2018-10-06T11:45:25.979Z] ----------------------------------------------------------------------
-[debug] [2018-10-06T11:45:25.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-06T11:45:25.982Z] CLI Version:   5.0.1
-[debug] [2018-10-06T11:45:25.982Z] Platform:      win32
-[debug] [2018-10-06T11:45:25.982Z] Node Version:  v8.11.4
-[debug] [2018-10-06T11:45:25.983Z] Time:          Sat Oct 06 2018 19:45:25 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-06T11:45:25.983Z] ----------------------------------------------------------------------
+[debug] [2018-10-07T23:53:40.378Z] ----------------------------------------------------------------------
+[debug] [2018-10-07T23:53:40.381Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-07T23:53:40.382Z] CLI Version:   5.0.1
+[debug] [2018-10-07T23:53:40.382Z] Platform:      win32
+[debug] [2018-10-07T23:53:40.382Z] Node Version:  v8.11.4
+[debug] [2018-10-07T23:53:40.383Z] Time:          Mon Oct 08 2018 07:53:40 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-10-07T23:53:40.383Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-10-06T11:45:25.996Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-06T11:45:25.997Z] > authorizing via signed-in user
-[debug] [2018-10-06T11:45:25.997Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
-[debug] [2018-10-06T11:45:25.999Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-10-06T11:45:26.000Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-10-07T23:53:40.399Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-07T23:53:40.400Z] > authorizing via signed-in user
+[debug] [2018-10-07T23:53:40.400Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
+[debug] [2018-10-07T23:53:40.402Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-07T23:53:40.403Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2018-10-06T11:45:30.566Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T11:45:30.693Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
+[debug] [2018-10-07T23:53:40.766Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-07T23:53:40.803Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
 
-[debug] [2018-10-06T11:45:36.290Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T11:45:36.295Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
+[debug] [2018-10-07T23:53:42.214Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-07T23:53:42.220Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
  
-[debug] [2018-10-06T11:45:40.798Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-07T23:53:43.517Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Muhammad Akbar\Documents\Directory Git\web_keihub'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-06T11:45:51.898Z] Fetching environment
-[debug] [2018-10-06T11:45:51.913Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
+[debug] [2018-10-07T23:53:45.238Z] Fetching environment
+[debug] [2018-10-07T23:53:45.242Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
  
-[debug] [2018-10-06T11:45:51.915Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
+[debug] [2018-10-07T23:53:45.244Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
  
-[debug] [2018-10-06T11:45:58.257Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-06T11:45:58.259Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-06T11:45:58.803Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-07T23:53:45.790Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-07T23:53:45.793Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-07T23:53:45.926Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
-[debug] [2018-10-06T11:46:07.041Z] Parsing function triggers
-[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
+[debug] [2018-10-07T23:53:50.112Z] Parsing function triggers
 [info] [hosting] Rewriting / to local function apps
+[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
 [info] [hosting] Rewriting /favicon.ico to local function apps
-[info] [hosting] Rewriting / to local function apps
-[info] [hosting] Rewriting /login to local function apps
-[info] [hosting] Rewriting / to local function apps
-[info] [hosting] Rewriting /login to local function apps
-[info] [hosting] Rewriting /index to local function apps
-[info] [hosting] Rewriting /login to local function apps
-[info] [hosting] Rewriting /login to local function apps
-[info] [hosting] Rewriting /author_write to local function apps
-[info] [hosting] Rewriting /login to local function apps
-[info] [hosting] Rewriting /author_write to local function apps
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[info] Shutting down...
-[debug] [2018-10-07T12:36:13.056Z] ----------------------------------------------------------------------
-[debug] [2018-10-07T12:36:13.125Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-07T12:36:13.126Z] CLI Version:   5.0.1
-[debug] [2018-10-07T12:36:13.127Z] Platform:      win32
-[debug] [2018-10-07T12:36:13.127Z] Node Version:  v8.11.4
-[debug] [2018-10-07T12:36:13.145Z] Time:          Sun Oct 07 2018 20:36:13 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-07T12:36:13.145Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-10-07T12:36:13.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-07T12:36:13.256Z] > authorizing via signed-in user
-[debug] [2018-10-07T12:36:13.256Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
-[debug] [2018-10-07T12:36:13.261Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-10-07T12:36:13.263Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2018-10-07T12:36:14.974Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T12:36:15.368Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
-
-[debug] [2018-10-07T12:36:17.354Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T12:36:17.356Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
- 
-[debug] [2018-10-07T12:36:18.798Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\Muhammad Akbar\Documents\Directory Git\web_keihub'...
-[info] 
-[info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-07T12:36:31.376Z] Fetching environment
-[debug] [2018-10-07T12:36:31.443Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
- 
-[debug] [2018-10-07T12:36:31.444Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
- 
-[debug] [2018-10-07T12:36:32.967Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T12:36:32.969Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-07T12:36:33.101Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: public
-[info] +  hosting: Local server: http://localhost:5000
-[debug] [2018-10-07T12:36:45.553Z] Parsing function triggers
-[info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
+[info] [hosting] Rewriting /favicon.ico to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /favicon.ico to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
@@ -111,34 +80,10 @@
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author?q=sdnas to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
-[info] [hosting] Rewriting /author?q=Berfungsi to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /contact.html to local function apps
+[info] [hosting] Rewriting /author to local function apps
