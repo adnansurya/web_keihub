@@ -54,10 +54,14 @@
 				<option>Teknologi - Problem Solving</option>
       </select>
 			<br>
-			<form action="/action_page.php"><label>Pilih Foto Thumbnail :</label>
+			<form action="/action_page.php"><label>Pilih Gambar Thumbnail :</label>
 				<input type="file" name="thumbnail_pic" accept="image/jpeg" multiple>
 				<p>Format Thumbnail adalah .jpeg dengan ukuran 640 x 358 pixels</p>
 			</form>
+			<div class="form-group floating focus">
+				<label>Keterangan Thumbnail</label>
+				<input type="text" class="form-control">
+			</div>
 			<br>
 			<button class="btn btn-success" onclick="swal('Artikel Terkirim', 'Konten anda akan kami cek terlebih dahulu', 'success');">Kirim</button>
 			<button class="btn btn-danger" onclick="swal({

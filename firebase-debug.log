@@ -1,65 +1,41 @@
-[debug] [2018-10-07T23:53:40.378Z] ----------------------------------------------------------------------
-[debug] [2018-10-07T23:53:40.381Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-07T23:53:40.382Z] CLI Version:   5.0.1
-[debug] [2018-10-07T23:53:40.382Z] Platform:      win32
-[debug] [2018-10-07T23:53:40.382Z] Node Version:  v8.11.4
-[debug] [2018-10-07T23:53:40.383Z] Time:          Mon Oct 08 2018 07:53:40 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-07T23:53:40.383Z] ----------------------------------------------------------------------
+[debug] [2018-10-08T03:17:00.342Z] ----------------------------------------------------------------------
+[debug] [2018-10-08T03:17:00.345Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-08T03:17:00.346Z] CLI Version:   5.0.1
+[debug] [2018-10-08T03:17:00.346Z] Platform:      win32
+[debug] [2018-10-08T03:17:00.346Z] Node Version:  v8.11.4
+[debug] [2018-10-08T03:17:00.346Z] Time:          Mon Oct 08 2018 11:17:00 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-10-08T03:17:00.347Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-10-07T23:53:40.399Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-07T23:53:40.400Z] > authorizing via signed-in user
-[debug] [2018-10-07T23:53:40.400Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
-[debug] [2018-10-07T23:53:40.402Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-10-07T23:53:40.403Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-10-08T03:17:00.367Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-08T03:17:00.367Z] > authorizing via signed-in user
+[debug] [2018-10-08T03:17:00.368Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
+[debug] [2018-10-08T03:17:00.370Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-08T03:17:00.370Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2018-10-07T23:53:40.766Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T23:53:40.803Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
+[debug] [2018-10-08T03:17:05.042Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T03:17:05.133Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
 
-[debug] [2018-10-07T23:53:42.214Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T23:53:42.220Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
+[debug] [2018-10-08T03:17:06.760Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T03:17:06.762Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
  
-[debug] [2018-10-07T23:53:43.517Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T03:17:08.218Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Muhammad Akbar\Documents\Directory Git\web_keihub'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-07T23:53:45.238Z] Fetching environment
-[debug] [2018-10-07T23:53:45.242Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
+[debug] [2018-10-08T03:17:26.707Z] Fetching environment
+[debug] [2018-10-08T03:17:26.737Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
  
-[debug] [2018-10-07T23:53:45.244Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
+[debug] [2018-10-08T03:17:26.738Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
  
-[debug] [2018-10-07T23:53:45.790Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-07T23:53:45.793Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-07T23:53:45.926Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T03:17:27.699Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T03:17:27.700Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-08T03:17:27.841Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
-[debug] [2018-10-07T23:53:50.112Z] Parsing function triggers
-[info] [hosting] Rewriting / to local function apps
+[debug] [2018-10-08T03:17:37.553Z] Parsing function triggers
 [info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
-[info] [hosting] Rewriting /favicon.ico to local function apps
-[info] [hosting] Rewriting /favicon.ico to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting / to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
@@ -69,6 +45,43 @@
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /category.html to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /index.html to local function apps
+[info] [hosting] Rewriting /index.html to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /index.js to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /index to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /auth to local function apps
+[info] [hosting] Rewriting /auth to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
@@ -79,11 +92,32 @@
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /index to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /contact.html to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
 [info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /loginpage?q= to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /indexpage to local function apps
+[info] [hosting] Rewriting /loginpage to local function apps

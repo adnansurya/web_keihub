@@ -22,4 +22,12 @@ app.get('/author', function(request, response)  {
   response.render('author')
 });
 
+app.get('/loginpage', function(request, response)  {
+  response.render('loginpage')
+});
+
+app.get('/indexpage', function(request, response)  {
+  response.render('indexpage')
+});
+
 exports.apps = functions.https.onRequest(app);
