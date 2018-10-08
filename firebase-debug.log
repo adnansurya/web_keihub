@@ -1,183 +1,91 @@
-[debug] [2018-10-08T03:17:00.342Z] ----------------------------------------------------------------------
-[debug] [2018-10-08T03:17:00.345Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-10-08T03:17:00.346Z] CLI Version:   5.0.1
-[debug] [2018-10-08T03:17:00.346Z] Platform:      win32
-[debug] [2018-10-08T03:17:00.346Z] Node Version:  v8.11.4
-[debug] [2018-10-08T03:17:00.346Z] Time:          Mon Oct 08 2018 11:17:00 GMT+0800 (Malay Peninsula Standard Time)
-[debug] [2018-10-08T03:17:00.347Z] ----------------------------------------------------------------------
+[debug] [2018-10-08T11:49:34.421Z] ----------------------------------------------------------------------
+[debug] [2018-10-08T11:49:34.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad Akbar\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-08T11:49:34.428Z] CLI Version:   5.0.1
+[debug] [2018-10-08T11:49:34.428Z] Platform:      win32
+[debug] [2018-10-08T11:49:34.428Z] Node Version:  v8.11.4
+[debug] [2018-10-08T11:49:34.429Z] Time:          Mon Oct 08 2018 19:49:34 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-10-08T11:49:34.429Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-10-08T03:17:00.367Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-08T03:17:00.367Z] > authorizing via signed-in user
-[debug] [2018-10-08T03:17:00.368Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
-[debug] [2018-10-08T03:17:00.370Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-10-08T03:17:00.370Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-10-08T11:49:34.461Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-08T11:49:34.462Z] > authorizing via signed-in user
+[debug] [2018-10-08T11:49:34.462Z] [iam] checking project keihubweb for permissions ["firebase.projects.get"]
+[debug] [2018-10-08T11:49:34.466Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-08T11:49:34.466Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2018-10-08T03:17:05.042Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-08T03:17:05.133Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
+[debug] [2018-10-08T11:49:38.828Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T11:49:38.964Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb:testIamPermissions  
 
-[debug] [2018-10-08T03:17:06.760Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-08T03:17:06.762Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
+[debug] [2018-10-08T11:49:41.091Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T11:49:41.093Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/keihubweb  
  
-[debug] [2018-10-08T03:17:08.218Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T11:49:42.936Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Muhammad Akbar\Documents\Directory Git\web_keihub'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-10-08T03:17:26.707Z] Fetching environment
-[debug] [2018-10-08T03:17:26.737Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
+[debug] [2018-10-08T11:49:51.332Z] Fetching environment
+[debug] [2018-10-08T11:49:51.387Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878:getServerAppConfig  
  
-[debug] [2018-10-08T03:17:26.738Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
+[debug] [2018-10-08T11:49:51.388Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593724962878/clients/_:getWebAppConfig  
  
-[debug] [2018-10-08T03:17:27.699Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-08T03:17:27.700Z] Starting @google-cloud/functions-emulator
-[debug] [2018-10-08T03:17:27.841Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T11:49:53.463Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-08T11:49:53.463Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-08T11:49:56.972Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
-[debug] [2018-10-08T03:17:37.553Z] Parsing function triggers
+[debug] [2018-10-08T11:49:58.171Z] Parsing function triggers
 [info] +  functions: apps: http://localhost:5001/keihubweb/us-central1/apps
+[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting / to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /favicon.ico to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /category.html to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /index.html to local function apps
-[info] [hosting] Rewriting /index.html to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /index.js to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /index to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /auth to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
 [info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /index to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage?q= to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /profile to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /profile to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /profile to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /profile to local function apps
-[info] [hosting] Rewriting /indexpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
 [info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /author to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
-[info] [hosting] Rewriting /loginpage to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /scripts/bootstrap/bootstrap.min.css.map to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps
+[info] [hosting] Rewriting /profile to local function apps
+[info] [hosting] Rewriting /images/logo.png to local function apps

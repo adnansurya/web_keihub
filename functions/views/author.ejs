@@ -63,7 +63,7 @@
 				<input type="text" class="form-control">
 			</div>
 			<br>
-			<button class="btn btn-success" onclick="swal('Artikel Terkirim', 'Konten anda akan kami cek terlebih dahulu', 'success');">Kirim</button>
+			<button class="btn btn-success" onclick="swal('Sukses', 'Konten anda akan kami cek terlebih dahulu', 'success');">Kirim</button>
 			<button class="btn btn-danger" onclick="swal({
 					title: 'Anda Yakin?',
 					text: 'Halaman akan direset dan tidak dapat dikembalikan',
@@ -71,11 +71,11 @@
 					showCancelButton: true,
 					confirmButtonColor: '#3085d6',
 					cancelButtonColor: '#d33',
-					confirmButtonText: 'Hapus'
+					confirmButtonText: 'Lanjutkan'
 					}).then(function () {
 					swal(
-					'Terhapus',
-					'Halaman berhasil direset.',
+					'Sukses',
+					'Penulisan Artikel dibatalkan',
 					'success'
 					)
 				})">Hapus</button>
