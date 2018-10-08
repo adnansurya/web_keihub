@@ -10,9 +10,7 @@ app.get('/', function(request, response)  {
   response.render('indexpage');
 });
 
-app.get('/login', function(request, response)  {
-  response.render('login');
-});
+
 
 app.get('/temp', function(request, response)  {
   response.render('template')
