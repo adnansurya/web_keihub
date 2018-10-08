@@ -30,4 +30,8 @@ app.get('/indexpage', function(request, response)  {
   response.render('indexpage')
 });
 
+app.get('/profile', function(request, response)  {
+  response.render('profile')
+});
+
 exports.apps = functions.https.onRequest(app);
