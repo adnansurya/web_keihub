@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + 'public'));
 
 app.get('/', function(request, response)  {
-  response.render('index');
+  response.render('indexpage');
 });
 
 app.get('/login', function(request, response)  {
@@ -22,11 +22,11 @@ app.get('/author', function(request, response)  {
   response.render('author')
 });
 
-app.get('/loginpage', function(request, response)  {
+app.get('/login', function(request, response)  {
   response.render('loginpage')
 });
 
-app.get('/indexpage', function(request, response)  {
+app.get('/index', function(request, response)  {
   response.render('indexpage')
 });
 
