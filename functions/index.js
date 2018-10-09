@@ -7,13 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + 'public'));
 
 app.get('/', function(request, response)  {
-  response.render('indexpage');
-});
-
-
-
-app.get('/temp', function(request, response)  {
-  response.render('template')
+  response.render('index');
 });
 
 app.get('/author', function(request, response)  {
@@ -21,11 +15,11 @@ app.get('/author', function(request, response)  {
 });
 
 app.get('/login', function(request, response)  {
-  response.render('loginpage')
+  response.render('login')
 });
 
 app.get('/index', function(request, response)  {
-  response.render('indexpage')
+  response.render('index')
 });
 
 app.get('/profile', function(request, response)  {
