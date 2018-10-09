@@ -10,20 +10,24 @@ app.get('/', function(request, response)  {
   response.render('index');
 });
 
-app.get('/author', function(request, response)  {
-  response.render('author')
+app.get('/new_article', function(request, response)  {
+  response.render('new_article')
 });
 
-app.get('/login', function(request, response)  {
-  response.render('login')
+app.get('/authentification', function(request, response)  {
+  response.render('authentification')
 });
 
 app.get('/index', function(request, response)  {
   response.render('index')
 });
 
-app.get('/profile', function(request, response)  {
-  response.render('profile')
+app.get('/profile_edit', function(request, response)  {
+  response.render('profile_edit')
+});
+
+app.get('/profile_view', function(request, response)  {
+  response.render('profile_view')
 });
 
 exports.apps = functions.https.onRequest(app);
