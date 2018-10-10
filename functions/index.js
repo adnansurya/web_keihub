@@ -30,4 +30,20 @@ app.get('/profile_view', function(request, response)  {
   response.render('profile_view')
 });
 
+app.get('/read_article', function(request, response)  {
+  response.render('read_article')
+});
+
+app.get('/about', function(request, response)  {
+  response.render('about')
+});
+
+app.get('/new_video', function(request, response)  {
+  response.render('new_video')
+});
+
+app.get('/watch_video', function(request, response)  {
+  response.render('watch_video')
+});
+
 exports.apps = functions.https.onRequest(app);
