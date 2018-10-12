@@ -46,4 +46,8 @@ app.get('/watch_video', function(request, response)  {
   response.render('watch_video')
 });
 
+app.get('/category', function(request, response)  {
+  response.render('category')
+});
+
 exports.apps = functions.https.onRequest(app);
