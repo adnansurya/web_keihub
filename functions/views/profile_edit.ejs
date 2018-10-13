@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <%- include('all/meta'); -%>
-		<title>KEIHUB</title>
-    <%- include('all/css'); -%>
-	</head>
-	<body class="skin-all">
-		<header class="primary">
+<head>
+	<%- include('all/meta'); -%>
+	<title>KEIHUB</title>
+  <%- include('all/css'); -%>
+</head>
+<body class="skin-all">
+	<header class="primary">
 
-      <%- include('all/header'); -%>
-			<!-- Start nav -->
-			<%- include('all/nav'); -%>
-			<!-- End nav -->
-		</header>
+		<%- include('all/header'); -%>
+		<!-- Start nav -->
+		<%- include('all/nav'); -%>
+		<!-- End nav -->
+	</header>
 
-		<section class="home">
-			<div class="container">
-				<h3>Edit Profil</h3>
-				<p><a href="index">Beranda</a> > <a href="profile_view">Profil Saya</a> > Edit Profil</p>
-				<br>
-				<h6>Info Umum</h6>
-				<img src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" width="100px" height="100" alt="Default Profile Picture">
-				<br>
-				<br>
-				<form>
-					<input type="file" name="profilepicture_pic" accept="image/jpeg" multiple>
-					<p>Format Profile adalah .jpeg dengan ukuran 100 x 100 pixels</p>
-				</form>
-				<br>
-				<label>Nama Lengkap :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="text" required>
-				</div>
-				<label>Nama Pengguna :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="text">
-				</div>
-				<label>Jenis Kelamin :</label>
-				<form>
-					<div class="iradio_square" style="position: relative;">
+	<section class="home">
+		<div class="container">
+			<h2>Edit Profil</h2>
+			<br>
+			<h6>Info Umum</h6>
+			<img src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" width="100px" height="100" alt="Default Profile Picture">
+			<br>
+			<form>
+				<input type="file" name="profilepicture_pic" accept="image/jpeg" multiple>
+				<p>Format Profile adalah .jpeg dengan ukuran 100 x 100 pixels</p>
+			</form>
+			<br>
+			<label>Nama Lengkap :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="text" required>
+			</div>
+			<label>Nama Pengguna :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="text">
+			</div>
+			<label>Jenis Kelamin :</label>
+			<form>
+				<div class="iradio_square" style="position: relative;">
 					<input type="radio" name="jeniskelamin" value="laki-laki" required> Laki-Laki<br>
 					<input type="radio" name="jeniskelamin" value="perempuan" required> Perempuan<br>
-					</div>
-				</form>
-				<br>
-				<label>Tanggal Lahir :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="date" required>
 				</div>
-				<label>Nomor Telepon :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="number" required>
-				</div>
-				<label>Alamat Lengkap :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="text" required>
-				</div>
-				<p><b>Bio Singkat</b></p>
-				<div class="form-group floating stacked">
-					<textarea rows="5" cols="151" maxlength="200"></textarea>
-					<p>Batas Maksimal Karater Hanya 200</p>
-				</div>
-				<br>
-				<a class="btn btn-success" href="profile_view">Simpan</a>
-				<a href="profile_view" class="btn btn-danger">Batal</a>
+			</form>
+			<br>
+			<label>Tanggal Lahir :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="date" required>
 			</div>
-</section>
+			<label>Nomor Telepon :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="number" required>
+			</div>
+			<label>Alamat Lengkap :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="text" required>
+			</div>
+			<p><b>Bio Singkat</b></p>
+			<div class="form-group floating stacked">
+				<textarea rows="5" cols="151" maxlength="200"></textarea>
+				<p>Batas Maksimal Karater Hanya 200</p>
+			</div>
+			<br>
+			<a class="btn btn-success" href="profile_view">Simpan</a>
+			<a href="profile_view" class="btn btn-danger">Batal</a>
+		</div>
+	</section>
 
 		<!-- Start footer -->
     <%- include('all/footer'); -%>

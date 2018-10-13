@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <%- include('all/meta'); -%>
-		<title>KEIHUB</title>
-    <%- include('all/css'); -%>
-	</head>
-	<body class="skin-all">
-		<header class="primary">
+<head>
+	<%- include('all/meta'); -%>
+	<title>KEIHUB</title>
+	<%- include('all/css'); -%>
+</head>
+<body class="skin-all">
+	<header class="primary">
 
-      <%- include('all/header'); -%>
-			<!-- Start nav -->
-			<%- include('all/nav'); -%>
-			<!-- End nav -->
-		</header>
+		<%- include('all/header'); -%>
+		<!-- Start nav -->
+		<%- include('all/nav'); -%>
+		<!-- End nav -->
+	</header>
 
-		<section class="home">
-			<div class="container">
-				<article class="col-md-12 article-list">
-		            <div class="inner">
-		              <figure>
-			              <a href="read_article">
-			                <img src="https://cdn.vox-cdn.com/thumbor/N0LYmOL6j9dY0WCh_sw1zTMzU50=/0x0:1920x1089/1200x800/filters:focal(815x67:1121x373)/cdn.vox-cdn.com/uploads/chorus_image/image/59292793/pubg.0.jpg">
-		                </a>
-		              </figure>
-		              <div class="details">
-		                <div class="detail">
-		                  <div class="category">
-		                   <a href="#">Kategori</a>
-		                  </div>
-		                  <div class="time">12 Oktober 2018</div>
-		                </div>
-		                <h1><a href="read_article">Judul Artikel</a></h1>
-		                <p>
-		                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                  quis nostrud exercitat...
-		                </p>
-		                <footer>
-		                  <a href="#" class="love"><i class="ion-android-favorite-outline"></i><div>100</div></a>
-		                  <a class="btn btn-primary more" href="read_article">
-		                    <div>Selengkapnya</div>
-		                    <div><i class="ion-ios-arrow-thin-right"></i></div>
-		                  </a>
-		                </footer>
-		              </div>
-		            </div>
-		          </article>
-			</div>
-		</section>
+	<section class="home">
+		<div class="container">
+			<h2>Kategori</h2>
+			<br>
+			<article class="col-md-12 article-list">
+				<div class="inner">
+					<figure>
+						<a href="read_article">
+							<img src="http://www.hawaiiorganic.org/wp-content/uploads/2016/02/9901248883618-1-540x270.jpg">
+						</a>
+					</figure>
+					<div class="details">
+						<div class="detail">
+							<div class="category">
+								<a href="category">Kategori</a>
+		         	</div>
+							<div class="time">12 Oktober 2018</div>
+						</div>
+						<h1><a href="read_article">Judul Artikel</a></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat...</p>
+						<footer>
+							<a class="love"><i class="ion-heart"></i><div> 100</div></a>
+							<a class="btn btn-primary more" href="read_article">
+								<div>Selengkapnya</div>
+								<div><i class="ion-ios-arrow-thin-right"></i></div>
+							</a>
+		       </footer>
+				 </div>
+			 </div>
+		 </article>
+	 </div>
+ </section>
 
 		<!-- Start footer -->
     <%- include('all/footer'); -%>

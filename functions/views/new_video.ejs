@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <%- include('all/meta'); -%>
-		<title>KEIHUB</title>
-    <%- include('all/css'); -%>
-	</head>
-	<body class="skin-all">
-		<header class="primary">
+<head>
+	<%- include('all/meta'); -%>
+	<title>KEIHUB</title>
+	<%- include('all/css'); -%>
+</head>
+<body class="skin-all">
+	<header class="primary">
 
-      <%- include('all/header'); -%>
-			<!-- Start nav -->
-			<%- include('all/nav'); -%>
-			<!-- End nav -->
-		</header>
+		<%- include('all/header'); -%>
+		<!-- Start nav -->
+		<%- include('all/nav'); -%>
+		<!-- End nav -->
+	</header>
 
-		<section class="home">
-			<div class="container">
-				<h3>Halaman Penulis</h3>
-				<p><a href="index">Beranda</a> > Halaman Penulis > Video</p>
-				<br>
-				<label>Link Video :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="text" required>
-				</div>
-				<label>Judul Video :</label>
-				<div class="form-group">
-					<input class="form-control rounded" type="text" required>
-				</div>
-				<label>Deskripsi Video :</label>
-				<br>
-				<textarea rows="5" cols="151" required></textarea>
+	<section class="home">
+		<div class="container">
+			<h2>Halaman Penulis</h2>
 			<br>
+			<label>Link Video :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="text" required>
+				<p>Video harus diupload di Youtube terlebih dahulu</p>
+			</div>
+			<label>Judul Video :</label>
+			<div class="form-group">
+				<input class="form-control rounded" type="text" required>
+			</div>
+			<label>Deskripsi Video :</label>
 			<br>
+			<textarea rows="5" cols="151" required></textarea>
+			<br><br>
 			<label>Kategori :</label>
 			<br>
 			<select class="form-control" id="sel1" required>
-        <option>Multimedia</option>
+				<option>Multimedia</option>
         <option>Elektronika</option>
         <option>Teknologi</option>
       </select>
@@ -57,8 +56,7 @@
 				<option>Teknologi - Framework</option>
 				<option>Teknologi - Problem Solving</option>
       </select>
-			<br>
-			<br>
+			<br><br>
 			<a href="watch_video" class="btn btn-success">Kirim</a>
 			<a href="index" class="btn btn-danger">Batal</a>
 		</section>

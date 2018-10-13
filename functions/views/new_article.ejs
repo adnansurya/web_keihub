@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <%- include('all/meta'); -%>
-		<title>KEIHUB</title>
-    <%- include('all/css'); -%>
-	</head>
-	<body class="skin-all">
-		<header class="primary">
+<head>
+	<%- include('all/meta'); -%>
+	<title>KEIHUB</title>
+	<%- include('all/css'); -%>
+</head>
+<body class="skin-all">
+	<header class="primary">
 
-      <%- include('all/header'); -%>
-			<!-- Start nav -->
-			<%- include('all/nav'); -%>
-			<!-- End nav -->
-		</header>
+		<%- include('all/header'); -%>
+		<!-- Start nav -->
+		<%- include('all/nav'); -%>
+		<!-- End nav -->
+	</header>
 
 		<section class="home">
 			<div class="container">
-				<h3>Halaman Penulis</h3>
-				<p><a href="index">Beranda</a> > Halaman Penulis > Artikel</p>
+				<h2>Halaman Penulis</h2>
 				<br>
 				<label>Judul Artikel :</label>
 				<div class="form-group">
@@ -26,46 +25,45 @@
 				<label>Konten :</label>
 				<br>
 				<textarea rows="5" cols="151"></textarea>
-			<br>
-			<br>
-			<label>Kategori :</label>
-			<br>
-			<select class="form-control" id="sel1">
-        <option>Multimedia</option>
-        <option>Elektronika</option>
-        <option>Teknologi</option>
-      </select>
-			<br>
-			<label>Sub Kategori :</label>
-			<br>
-			<select class="form-control" id="sel1">
-        <option>Multimedia - Video Editing</option>
-				<option>Multimedia - Photo Editing</option>
-				<option>Multimedia - Jurnalist</option>
-        <option>Elektronika - Pembacaan Skema</option>
-				<option>Elektronika - Komponen Elektronika</option>
-				<option>Elektronika - Skema Elektronika</option>
-				<option>Elektronika - PCB Layout</option>
-				<option>Elektronika - Simulasi dengan Proteus</option>
-				<option>Elektronika - Arduino</option>
-				<option>Teknologi - Program Dasar</option>
-				<option>Teknologi - HTML & CSS</option>
-				<option>Teknologi - Framework</option>
-				<option>Teknologi - Problem Solving</option>
-      </select>
-			<br>
-			<form action="/action_page.php"><label>Pilih Gambar Thumbnail :</label>
-				<input type="file" name="thumbnail_pic" accept="image/jpeg" multiple>
-				<p>Format Thumbnail adalah .jpeg dengan ukuran 640 x 358 pixels</p>
-			</form>
-			<label>Keterangan Thumbnail :</label>
-			<div class="form-group">
-				<input class="form-control rounded" type="text">
-			</div>
-			<br>
-			<a href="read_article" class="btn btn-success">Kirim</a>
-			<a href="index" class="btn btn-danger">Batal</a>
-		</section>
+				<br><br>
+				<label>Kategori :</label>
+				<br>
+				<select class="form-control" id="sel1">
+					<option>Multimedia</option>
+					<option>Elektronika</option>
+					<option>Teknologi</option>
+				</select>
+				<br>
+				<label>Sub Kategori :</label>
+				<br>
+				<select class="form-control" id="sel1">
+					<option>Multimedia - Video Editing</option>
+				 <option>Multimedia - Photo Editing</option>
+				 <option>Multimedia - Jurnalist</option>
+         <option>Elektronika - Pembacaan Skema</option>
+				 <option>Elektronika - Komponen Elektronika</option>
+				 <option>Elektronika - Skema Elektronika</option>
+				 <option>Elektronika - PCB Layout</option>
+				 <option>Elektronika - Simulasi dengan Proteus</option>
+				 <option>Elektronika - Arduino</option>
+				 <option>Teknologi - Program Dasar</option>
+				 <option>Teknologi - HTML & CSS</option>
+				 <option>Teknologi - Framework</option>
+				 <option>Teknologi - Problem Solving</option>
+			 </select>
+			 <br>
+			 <form action="/action_page.php"><label>Pilih Gambar Thumbnail :</label>
+				 <input type="file" name="thumbnail_pic" accept="image/jpeg" multiple>
+				 <p>Format Thumbnail adalah .jpeg dengan ukuran 640 x 358 pixels</p>
+			 </form>
+			 <label>Keterangan Thumbnail :</label>
+			 <div class="form-group">
+				 <input class="form-control rounded" type="text">
+			 </div>
+			 <br>
+			 <a href="read_article" class="btn btn-success">Kirim</a>
+			 <a href="index" class="btn btn-danger">Batal</a>
+		 </section>
 
 		<!-- Start footer -->
     <%- include('all/footer'); -%>
