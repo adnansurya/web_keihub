@@ -15,17 +15,17 @@
 		</header>
 
 		<section class="home">
-			<div class="container">
-				<h1>Add Category</h1>
+			<div class="container" id="app">
+				<h1>Add Category </h1>
 				<label>Nama Kategori :</label>
 				<div class="form-group">
-					<input class="form-control rounded" type="text">
+					<input v-model="modal.nama" class="form-control rounded" type="text">
 				</div>
 				<label>Deskripsi :</label>
 				<div class="form-group">
-					<input class="form-control rounded" type="text">
+					<input v-model="modal.deskripsi" class="form-control rounded" type="text">
 				</div>
-				<a href="read_article" class="btn btn-success">Kirim</a>
+				<button @click="addKategori()" class="btn btn-success">Kirim</button>
  			 <a href="index" class="btn btn-danger">Batal</a>
 
 			</div>
@@ -37,5 +37,60 @@
 
 		<!-- JS -->
     <%- include('all/script'); -%>
+		<script type="text/javascript">
+
+		const  db = firebase.database();
+
+		var vm = new Vue({
+		  el: '#app',
+			data: {
+		    modal : {
+		      id: '',
+		      nama: '',
+		      deskripsi: ''
+		    }
+
+		  },
+		  firebase: {
+		    kategori: db.ref('kategori')
+		  },
+		  methods: {
+		    resetModal(){
+		      this.modal.id='';
+		      this.modal.nama = '';
+		      this.modal.deskripsi = '';
+		    },
+		    addKategori () {
+		      this.$firebaseRefs.kategori.push({
+		        nama_kategori: this.modal.nama,
+		        deskripsi: this.modal.deskripsi
+		      });
+		      this.resetModal();
+		    },
+		    // loadModal(data){
+		    //   this.modal.id = data['.key'];
+		    //   this.modal.nama = data.nama_kategori;
+		    //   this.modal.kode = data.kode_kategori;
+		    //   this.modal.detail = data.detail_kategori;
+		    // },
+		    // deleteKategori (key) {
+		    //   this.$firebaseRefs.kategori.child(key).remove();
+		    //   this.resetModal();
+		    // },
+		    // updateKategori(key) {
+		    //   this.$firebaseRefs.kategori.child(key).set({
+		    //     nama_kategori: this.modal.nama,
+		    //     kode_kategori: this.modal.kode,
+		    //     detail_kategori: this.modal.detail
+		    //   });
+		    //   this.resetModal();
+		    // }
+		  }
+		});
+
+
+		</script>
 	</body>
+
+
 </html>

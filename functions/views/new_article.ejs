@@ -15,7 +15,7 @@
 	</header>
 
 		<section class="home">
-			<div class="container">
+			<div class="container" id="app">
 				<h2>Halaman Penulis</h2>
 				<br>
 				<label>Judul Artikel :</label>
@@ -29,9 +29,8 @@
 				<label>Kategori :</label>
 				<br>
 				<select class="form-control" id="sel1">
-					<option>Multimedia</option>
-					<option>Elektronika</option>
-					<option>Teknologi</option>
+					<option v-for="item in kategori">{{item.nama_kategori}} - {{item.deskripsi}}</option>
+
 				</select>
 				<br>
 				<label>Sub Kategori :</label>
@@ -72,5 +71,17 @@
 		<!-- JS -->
     <%- include('all/script'); -%>
 		<script type="text/javascript" src="scripts/ckeditor_standard/ckeditor.js"></script>
+		<script type="text/javascript">
+		const  db = firebase.database();
+
+		var vm = new Vue({
+		  el: '#app',
+
+		  firebase: {
+		    kategori: db.ref('kategori')
+		  }
+		});
+
+		</script>
 	</body>
 </html>
