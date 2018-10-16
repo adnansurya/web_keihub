@@ -47,7 +47,13 @@ app.get('/watch_video', function(request, response)  {
 });
 
 app.get('/category', function(request, response)  {
-  response.render('category')
+response.render('category')
+});
+app.get('/add_category', function(request, response)  {
+response.render('add_category')
 });
 
+app.get('/blank', function(request, response)  {
+response.render('template')
+});
 exports.apps = functions.https.onRequest(app);
