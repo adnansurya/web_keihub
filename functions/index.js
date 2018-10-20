@@ -53,7 +53,7 @@ app.get('/add_category', function(request, response)  {
 response.render('add_category')
 });
 
-app.get('/blank', function(request, response)  {
+app.get('/contoh', function(request, response)  {
 response.render('template')
 });
 exports.apps = functions.https.onRequest(app);
